@@ -1,4 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #FAF4D3;
+}
+
+.titulo {
+    background-color: #F6BE9A;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: 40px auto;
+    color: #0C1618;
 }
