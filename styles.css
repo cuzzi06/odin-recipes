@@ -8,10 +8,33 @@ body {
 }
 
 .titulo {
-    background-color: #F6BE9A;
+    background-color: #F97068;
     width: 400px;
     text-align: center;
     padding: 10px;
     margin: 40px auto;
     color: #0C1618;
 }
+
+.container-recetas {
+    width: 800px;
+    height: 290px;
+    background-color: #57C4E5;
+    color: #FFFFFF;
+    border: 2px solid #F97068;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+li {
+    font-size: 32px;
+    width: 250px; 
+    margin: 20px auto;
+    padding: 8px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
