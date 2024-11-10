@@ -42,7 +42,6 @@ body {
 }
 
 .encabezado {
-    margin-bottom: 5px;
     background-color: #f8f5ef;
     color: #6d6666;
     padding: 8px;
@@ -58,4 +57,18 @@ body {
 
 .texto {
     padding: 8px;
+    font-size: 15px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 200;
+}
+
+ul {
+    list-style-type: circle;
+    
+}
+
+ul, ol {
+    margin-left: 0;
+    padding-left: 0;
+    list-style-position: inside;
 }
