@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+}
+body, html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url(../../images/tallarin.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 45%;
+}
+
+.container {
+    width: 55%;
+    min-height: 100vh;
+    background-color: #6d6666;
+    background-attachment: fixed;
+    margin-left: 45%;
+    padding-top: 85px;
+    color: #f8f5ef;
+    font-family: "Hommersmit One", sans-serif; 
+    padding-bottom: 40px;
+}
+
+.title {
+    margin-left: 120px;
+    margin-bottom: 63px;  
+}
+
+.descripcion {
+    background-color: #9ba474;
+    width: auto;
+    margin: 0 120px;
+    margin-bottom: 40px;
+    font-family: "Hommersmit One", sans-serif;
+    font-size: 16px;
+    padding: 0px;
+}
+
+.encabezado {
+    margin-bottom: 5px;
+    background-color: #f8f5ef;
+    color: #6d6666;
+    padding: 8px;
+}
+
+.ingredientes {
+    margin-top: 20px;
+}
+
+.preparacion {
+    margin-top: 20px;
+}
+
+.texto {
+    padding: 8px;
+}
