@@ -3,38 +3,72 @@
 }
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Forum", 'Times New Roman', Times, serif;
     background-color: #FAF4D3;
+    background-image: url(./images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .titulo {
-    background-color: #F97068;
-    width: 400px;
+    font-size: 41.5px;
+    background-color: #9ba473;
+    color: #f8f5ef;
+    padding: 5px;
+    padding-top: 19.25px;
+    width: 475px;
+    height: 85px;
     text-align: center;
-    padding: 10px;
-    margin: 40px auto;
-    color: #0C1618;
+    margin-left: 705px;
+    margin-top: 85px;
+    margin-bottom: 65px;
 }
 
 .container-recetas {
-    width: 800px;
-    height: 290px;
-    background-color: #57C4E5;
-    color: #FFFFFF;
-    border: 2px solid #F97068;
-    padding: 20px;
-    margin: 0 auto;
+    width: 490px;
+    height: 410px;
+    background-color: #6d6666;
+    margin-left: 699px;
+    padding: 15px;
+    text-align: center;
+    padding-top: 63px;
 }
 
 li {
-    font-size: 32px;
-    width: 250px; 
-    margin: 20px auto;
-    padding: 8px;
-    text-align: center;
+    padding: 15px 10px;
+    width: 374px;
+    height: 52px;
+    border: 0.5px solid #f8f5ef;
+    font-family: "Popins", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    list-style-type: none;
+    padding-top: 16px;
+    color: #f8f5ef;
+}
+
+.container-recetas li:hover {
+    background-color: #9ba473;
+    color: #f8f5ef;
+    border: 0.5px solid #6d6666;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.tallarines-rojos {
+    margin: 0 auto;
+}
+
+.panqueques {
+    margin: 63px auto 63px;
+}
+
+.avena {
+    margin: 63px auto 63px;
 }
 
 a {
-    color: white;
+    text-decoration: none;
 }
 
